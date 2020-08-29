@@ -1,0 +1,85 @@
+.taskHandler {
+
+    margin: 20px auto 20px auto;
+    border-radius:  5%;
+    
+
+}
+
+.task-info {
+
+
+    margin: 10px 0 10px 0;
+
+    font-size: 1.2rem;
+    text-align: left;
+    color: white;
+}
+
+.control-settings {
+    border-radius: 50%;
+    border: none;
+
+    margin: 12px 0px 12px 0px;
+
+
+}
+
+.controlDropright {
+    position: relative;
+
+    bottom: 12px;
+    right: 20px;
+    
+    
+    
+}
+
+.change {
+    width: 99%;
+    
+    background-color: red;
+    color: white;
+    
+    margin: 3px 1px 3px 1px;
+    
+    padding: 12px;
+    
+    font-size: 0.8em;
+}
+
+.update {
+    background-color: rgb(140, 140, 140);
+}
+
+
+
+.none {
+    background-color: rgb(150, 200, 255);
+}
+
+.button-default {
+    background-color: rgb(10, 200, 205);
+    color: rgb(10, 180, 205);
+}
+
+.button-important {
+    background-color: rgb(150, 100, 150);
+    color: rgb(200, 180, 200);
+}
+
+.button-urgent {
+    background-color: rgb(235,112,19);
+    color: rgb(200, 92, 9);
+}
+
+.control-settings:hover {
+    background-color: white;
+    color: white;
+}
+
+
+
+disappear {
+    display: none;
+}

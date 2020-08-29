@@ -1,0 +1,136 @@
+.makeToDo {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    left: 15px;
+    width: 90%;
+    z-index: 10; 
+
+    box-sizing: border-box;
+    background-color: rgb(150, 200, 255);
+    
+    
+    border-radius: 0% 15% 15% 15%;
+
+}
+
+.toDoType {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    
+
+}
+
+.hold_to_do  {
+    
+    background-color: rgb(150, 200, 255);
+    color: black;
+
+    border: none;
+    margin: 15px auto 15px auto;
+}
+
+.hold_to_do:hover {
+    background-color: rgb(120, 180, 235);
+    
+}
+
+
+
+.hold_to_do > div {
+    position: relative;
+    bottom: 3px;
+    transform: scale(2);
+    
+}
+
+.dropdown-menu {
+
+    padding: 0px;
+    width: auto;
+    
+    background-color: rgb(205, 240, 255);
+    
+    
+    border: none;
+}
+
+.controlDropdown {
+    position: relative;
+    
+    right: 45px;
+    bottom: 14px;
+    
+}
+
+.ToDo {
+    width: 100%;
+    margin: 1px 0 1px 0;
+    color: white;
+    
+}
+
+
+
+.default {
+    background-color: rgb(80, 170 , 170);
+}
+
+.default:hover {
+    background-color: rgb(50, 140, 140)
+    
+}
+
+.important {
+    background-color: rgb(80, 80, 200);
+    color: rgb(240, 240, 240);
+}
+
+.important:hover {
+    background-color: rgb(30, 30, 130);
+    
+}
+
+.urgent {
+    background-color: rgb(200, 80, 80);
+
+}
+
+.urgent:hover {
+    background-color: rgb(170, 54, 14);
+
+    
+}
+
+
+.toDoContainer {
+    padding: 0px;
+    margin: 0px;
+
+
+}
+
+input[type=text]:focus {
+    border: none;
+}
+
+.task {
+    width: 100%;
+
+    background-color: rgb(150, 200, 255);
+
+    border: none;
+    outline: none;
+
+    margin: 15px auto 15px auto;
+    padding: 3px;
+
+    font-size: 1.2em;
+}
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+.someSpace {
+    margin-top: 60px;
+    
+}
+
+.someMoreSpace {
+    margin-top: 20px;
+}
+
+.SortItems {
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    z-index: 10;
+    
+    
+    
+}
+
+.types {
+    background-color: rgb(150, 200, 255);
+}
+
+.modal-body {
+    position: fixed;
+    background-color:  rgb(205, 240, 255);
+}
